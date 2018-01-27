@@ -54,7 +54,7 @@ function getRandCharInAlph(obj) {
     for (let key in obj) {
         arr = arr.concat(obj[key]);
     }
-    let randomItem = Math.floor(Math.random()*arr.length) ;
+    let randomItem = Math.floor(Math.random()*arr.length-1) ;
     let random = arr[randomItem];
     return random;
 }
