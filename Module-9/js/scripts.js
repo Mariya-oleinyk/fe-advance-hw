@@ -56,5 +56,3 @@ const playSound = note => {
            }
           }
   }, true);
-
-
