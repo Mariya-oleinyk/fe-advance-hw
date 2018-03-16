@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+input, button{
+    margin: 5px;
+}
+.results li{
+    color: rgb(24, 233, 24);
+}
+.results li:nth-child(1){
+    margin-top: 7px;
+}
+.results li:nth-child(2){
+    margin-top: 16px;
+}
+.results li:nth-child(3){
+    margin-top: 16px;
+}
