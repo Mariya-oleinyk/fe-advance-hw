@@ -1,5 +1,3 @@
-let wrapper = document.getElementsByClassName("wrapper");
-
 class Shape{
   constructor (){
     this.color;
